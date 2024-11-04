@@ -4,9 +4,6 @@
 ```shell
 vi tpcds-env.sh
 ```
-- 数据量
-- 环境变量
-- 设置数据生成节点```vi nodenum.sh```
 
 ## 2. data generation
 
