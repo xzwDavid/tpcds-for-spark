@@ -24,7 +24,7 @@ cd ../..
 ./gen-sql.sh
 ```
 
-## 4. fix for presto and trino
+## 4. fix for spark
 You first generate the query following the above steps then you use the fix script to fix some dialect in generated query:
 ```shell
 cp fix_spark.py query_sql_1000
