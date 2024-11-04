@@ -1,9 +1,12 @@
 # TPCDS-FOR-SPARK：
-
+This is used to generate fixed tpcds query for spark/presto/trino
 ## 1. set up
 ```shell
 vi tpcds-env.sh
 ```
+- data size
+- env variance
+
 
 ## 2. data generation
 
