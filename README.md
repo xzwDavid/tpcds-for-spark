@@ -27,6 +27,14 @@ cd ../..
 ## 4. fix for presto and trino
 You first generate the query following the above steps then you use the fix script to fix some dialect in generated query:
 ```shell
+cp spark-fix.py query_sql_1000
+cd query_sql_1000
+python spark-fix.sh
+```
+
+## 5. fix for presto and trino
+You first generate the query following the above steps then you use the fix script to fix some dialect in generated query:
+```shell
 cp presto-fix.py query_sql_1000
 cd query_sql_1000
 python presto-fix.sh
